@@ -1,0 +1,84 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Food Bank</title>    
+    <link rel="stylesheet" type="text/css" href="donate.css"> 
+    <style>
+        body{  
+      font-family: Calibri, Helvetica, sans-serif;  
+      background-color: pink;  
+    }  
+    .container {  
+        padding: 50px;  
+      background-color: lightblue;  
+    }  
+      
+    input[type=text], input[type=password], textarea {  
+      width: 100%;  
+      padding: 15px;  
+      margin: 5px 0 22px 0;  
+      display: inline-block;  
+      border: none;  
+      background: #f1f1f1;  
+    }  
+    input[type=text]:focus, input[type=password]:focus {  
+      background-color: orange;  
+      outline: none;  
+    }  
+     div {  
+                padding: 10px 0;  
+             }  
+    hr {  
+      border: 1px solid #f1f1f1;  
+      margin-bottom: 25px;  
+    }  
+    .submitbtn {  
+      background-color: #4CAF50;  
+      color: white;  
+      padding: 16px 20px;  
+      margin-left: 360px;  
+      border: none;  
+      cursor: pointer;  
+      width: 50%;  
+      opacity: 0.9;  
+    }  
+    .submitbtn:hover {  
+      opacity: 1;  
+    }  
+     
+    </style>  
+     <a href="Index.html"><img src="Images/back.png" height="130px" style="margin-left: 1px;" class="color logo-1 logo-sift"></a> 
+</head>    
+<body>        
+        <form>  
+            <div class="container">  
+            <center>  <h1> Food Donatation</h1> </center>  
+            <hr>  
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_udTJtk.json"  background="transparent"  speed="1"  style="width: 350px; height: 350px; margin-left: 500px;"  loop  autoplay></lottie-player>
+            <label>Name</label>   
+          <input type="text" name="Serving capacity" placeholder= "Your name" size="15" required />
+        <label>Food</label> 
+        <script>
+            function wow(){
+                window.alert("Thanks for the donation")
+            }
+        </script> 
+          <input type="text" name="food menu" placeholder= "Food Menu" size="15" required /> 
+          <label>Date</label>   
+          <input type="text" name="date" placeholder= "Date" size="15" required /> 
+          <label>Serving Capacity</label>   
+          <input type="text" name="Serving capacity" placeholder= "Serving Capacity" size="15" required /> 
+          <label>Address</label>   
+          <input type="text" name="Serving capacity" placeholder= "enter your adress here" size="15" required />
+          <label>Phone number</label>   
+          <input type="text" name="Serving capacity" placeholder= "Enter your mobile number" size="15" required />
+          <label>Hotel</label>   
+          <input type="text" name="Serving capacity" placeholder= "Which hotel do you want to donate" size="15" required />
+          <button  class="submitbtn" onclick="wow()">Donate</button>    
+          </div>
+          </form>
+</div>    
+</body>    
+</html>     
+
